@@ -1,0 +1,135 @@
+----MAXIMOS GOLEADORES----
+Harry Kane 6
+Antoine Griezmann 4
+Cristiano Ronaldo 4
+Denis Cheryshev 4
+Kylian Mbappé 4
+Romelu Lukaku 4
+Artem Dzyuba 3
+Diego Costa 3
+Eden Hazard 3
+Edinson Cavani 3
+Ivan Perisic 3
+Mario Mandzukic 3
+Yerry Mina 3
+Ahmed Musa 2
+Andreas Granqvist 2
+John Stones 2
+Luis Suárez 2
+Luka Modric 2
+Mile Jedinak 2
+Mohamed Salah 2
+Neymar 2
+Philippe Coutinho 2
+Sergio Agüero 2
+Son Heung-min 2
+Takashi Inui 2
+Wahbi Khazri 2
+Adnan Januzaj 1
+Aleksandar Kolarov 1
+Aleksandar Mitrovic 1
+Aleksandr Golovin 1
+Alfred Finnbogason 1
+André Carrillo 1
+Andrej Kramaric 1
+Angel Di María 1
+Ante Rebic 1
+Benjamin Pavard 1
+Blerim Dzemaili 1
+Carlos Vela 1
+Christian Eriksen 1
+Dele Alli 1
+Domagoj Vida 1
+Dries Mertens 1
+Dylan Bronn 1
+Emil Forsberg 1
+Fakhreddine Ben Youssef 1
+Felipe Baloy 1
+Ferjani Sassi 1
+Gabriel Mercado 1
+Genki Haraguchi 1
+Granit Xhaka 1
+Grzegorz Krychowiak 1
+Gylfi Sigurdsson 1
+Harry Maguire 1
+Hirving Lozano 1
+Iago Aspas 1
+Isco 1
+Ivan Rakitic 1
+Jan Bednarek 1
+Jan Vertonghen 1
+Javier Hernández 1
+Jesse Lingard 1
+José Fernando Cuadrado 1
+José María Giménez 1
+Josip Drmic 1
+Juan Fernando Quintero 1
+Karim Ansarifard 1
+Keisuke Honda 1
+Kendall Waston 1
+Kevin De Bruyne 1
+Khalid Boutaib 1
+Kieran Trippier 1
+Kim Young-gwon 1
+Lionel Messi 1
+Ludwig Augustinsson 1
+M'Baye Niang 1
+Marco Reus 1
+Marcos Rojo 1
+Mário Fernandes 1
+Marouane Fellaini 1
+Mathias Jorgensen 1
+Michy Batshuayi 1
+Milan Badelj 1
+Moussa Wagué 1
+Nacer Chadli 1
+Nacho 1
+Ola Toivonen 1
+Paolo Guerrero 1
+Paul Pogba 1
+Paulinho 1
+Pepe 1
+Radamel Falcao 1
+Raphaël Varane 1
+Renato Augusto 1
+Ricardo Quaresma 1
+Roberto Firmino 1
+Sadio Mané 1
+Salem Al-Dawsari 1
+Salman Al-Faraj 1
+Samuel Umtiti 1
+Shinji Kagawa 1
+Steven Zuber 1
+Thiago Silva 1
+Thomas Meunier 1
+Toni Kroos 1
+Victor Moses 1
+Xherdan Shaqiri 1
+Youssef En-Nesyri 1
+Yury Gazinsky 1
+Yussuf Poulsen 1
+Yuya Osako 1
+----JUGADORES ESPAÑA----
+Jordi Alba Ramos
+Marcos Alonso
+Kepa Arrizabalaga
+Iago Aspas
+César Azpilicueta Tanco
+Sergio Busquets
+Dani Carvajal
+Diego Costa
+David de Gea Quintana
+Saúl Ñíguez Esclápez
+José Ignacio Fernández Iglesias
+Andrés Iniesta
+Rodrigo Moreno Machado
+Jorge Resurrección Merodio
+Nacho Monreal
+Thiago Alcántara do Nascimento
+Alvaro Odriozola
+Gerard Piqué Bernabéu
+Sergio Ramos García
+Pepe Reina
+David Silva
+Francisco Román Alarcón Suárez
+Lucas Vázquez
