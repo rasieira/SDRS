@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><carta>
+  <pizza nombre="4 Quesos" precio="8">
+  	<ingrediente>Queso 0</ingrediente>
+  	<ingrediente>Queso 1</ingrediente>
+  	<ingrediente>Queso 2</ingrediente>
+  	<ingrediente>Queso 3</ingrediente>
+  	<oferta/>
+  </pizza>
+  <pizza nombre="Jamón y queso" precio="10">
+  	<ingrediente>Jamón</ingrediente>
+  	<ingrediente>Queso</ingrediente></pizza>
+<pizza nombre="Carbonara" precio="9"><ingrediente>Pues no se que lleva una carbonara</ingrediente><oferta/></pizza></carta>

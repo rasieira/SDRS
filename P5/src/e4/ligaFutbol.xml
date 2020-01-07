@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ligaFutbol temporada="2018-2019">
+    <equipo>
+        <nombre>Clapton CFC</nombre>
+        <division>1</division>
+        <jugadores>
+            <jugador>J1</jugador>
+        </jugadores>
+        <enDescenso>false</enDescenso>
+    </equipo>
+    <equipo>
+        <nombre>Naxara CF</nombre>
+        <division>3</division>
+        <jugadores>
+            <jugador>J2</jugador>
+        </jugadores>
+        <enDescenso>true</enDescenso>
+    </equipo>
+</ligaFutbol>

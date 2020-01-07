@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT carta (pizza+)>
+
+<!ELEMENT pizza (ingrediente*, oferta?)>
+<!ATTLIST pizza 
+	precio CDATA #REQUIRED
+	nombre CDATA #REQUIRED
+>
+
+<!ELEMENT ingrediente (#PCDATA)>
+
+<!ELEMENT oferta EMPTY>
