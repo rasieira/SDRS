@@ -1,0 +1,27 @@
+img
+{
+	display:block; 
+	margin:auto;
+	max-width:100%;
+}
+
+#ur
+{
+	height:35px;
+	float:right;
+	display:inline-block;
+}
+
+#css
+{
+	height:35px;
+	float:right;
+	display:inline-block;
+}
+
+#html
+{	
+	height:35px;
+	float:right;
+	display:inline-block;
+}

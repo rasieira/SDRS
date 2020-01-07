@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="HTML,CSS,trabajo,Universidad de la rioja,sistemas informaticos,codificación,coma flotante,coma fija,codigos historicos,precisión arbitraria">
+		<meta name="description" content="Trabajo HTML de Sistemas Informáticos de Guillermo Roche, Pablo Mendoza y Raúl Prieto">
+		<meta name="Author" content="Guillermo Roche, Pablo Mendoza y Raúl Prieto">
+		<link rel="stylesheet" href="../css/general.css">
+		<link rel="stylesheet" href="../css/imagenes.css">
+		<link rel="stylesheet" href="../css/tablas.css">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<title>Coma flotante</title>
+	</head>
+	<body>
+		<header>
+		Representación de tipos numéricos
+		</header>
+		<nav>
+            <ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="codigos.html">Códigos y bases</a></li>
+                <li><a href="naturales.html">Naturales</a></li>
+                <li><a href="enteros.html">Enteros</a></li>
+                <li><a href="comaflotante.html">Coma flotante</a></li>
+                <li><a href="comafija.html">Coma fija</a></li>
+                <li><a href="arbitraria.html">Precisión Arbitraria</a></li>
+				<li><a href="historicos.html">Códigos históricos</a></li>
+                <li><a href="bibliografia.html">Bibliografía</a></li>
+            </ul>
+        </nav>
+		<article>
+			<h1>Representación en coma flotante (Floating Point)</h1>
+			<div class="square"></div>
+			<p>
+				El estándar IEEE 754 define las reglas, operaciones, representación, manejo de numeros
+				sin normalizar, como el infinito y el NaN (Not a Number), con números en este formato.<br>
+				En coma flotante, se representan, en notación científica, un rango de números con precisión variable, 
+				de forma compacta y eficiente a nivel de CPU. A continuación se detallan los subtipos de coma flotante, 
+				así como su representación interna.
+			</p>
+			<h2>Presentación en coma flotante</h2>
+			<p>
+				Un número en coma flotante se presenta de la siguiente
+				forma:
+			</p>
+			<img src="../imagenes/comaflotante.png" alt="Aqui deberia ir una imagen LOL">
+			<p>En la imagen se muestra el formato de simple precisión (Arriba) y el de doble precisión (Abajo).</p>
+			<ul>
+				<li>En simple precisión se reserva 1 bit para el signo, 8 para el exponente, y 23 para la base</li>
+				<li>En doble prescisión se reserva 1 bit para el signo, 11 para el exponente, y 52 para la base</li>
+			</ul>
+			<h2>Tipos de coma flotante</h2>
+			<p>
+				La coma flotante puede representarse con distintos niveles de precisión ,
+				que se adecúan según las características del calculo que se realiza. Así tenemos 
+				coma flotante de precisión simple, doble cuádruple... En la siguiente tabla se muestran los 
+				principales tipos.
+			</p>
+			<table>
+				<tr>
+					<th>Nombre</th>
+					<th>Bits de mantisa</th>
+					<th>Digitos en decimal</th>
+					<th>Bits del exponenete</th>
+				</tr>
+				<tr>
+					<td class="nombre">Precisión media</td>
+					<td>11</td>
+					<td>3.31</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td class="nombre">Precisión simple</td>
+					<td>24</td>
+					<td>7.22</td>
+					<td>8</td>
+				</tr>
+				<tr>
+					<td class="nombre">Precisión doble</td>
+					<td>53</td>
+					<td>15.95</td>
+					<td>11</td>
+				</tr>
+				<tr>
+					<td class="nombre">Precisión cuádruple</td>
+					<td>113</td>
+					<td>34.02</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td class="nombre">Precisión óctuple</td>
+					<td>237</td>
+					<td>71.34</td>
+					<td>19</td>
+				</tr>
+			</table>
+			<h2>Peculiaridades, exception handling y NaN (Not a Number)</h2>
+				<ul>
+					<li>Hay valores especiales no numéricos (NaN, «not a number» en inglés) 
+					en los que el exponente es todo unos y la mantisa no es todo ceros. 
+					Estos valores representan el resultado de algunas operaciones indefinidas 
+					(como multiplicar 0 por infinito, operaciones que involucren NaN, o casos específicos).</li>
+					<li>Hay valores diferentes para cero positivo y cero negativo. Estos difieren en el bit del signo, 
+					mientras que todos los demás son 0. 
+					Deben ser considerados iguales aunque sus secuencias de bits sean diferentes.</li>
+					<li>El exponente no tiene signo; en su lugar se le resta un desplazamiento (127 para sencilla y 1023 para doble precisión). 
+					Esto, junto con la secuencia de bits, permite que los números de punto flotante se puedan comparar y ordenar correctamente 
+					incluso cuando se interpretan como enteros.</li>
+				</ul>
+				<p>
+					Además de los casos peculiares descritos arriba, el estándar define cinco tipos de errores, que 
+					constituyen el exception handling de coma flotante:
+				</p>
+				<ul>
+					<li>Operación inválida: Ej.: Raíz de un negativo, devulve un NaN</li>
+					<li>División por cero: Devuelve +-Infinity</li>
+					<li>Overflow: El resultado es muy largo para mostrar, devuelve +-Infinity</li>
+					<li>Underflow: El resultado es muy pequeño (De exponente cercano a 0), devuelve un numero subnormal</li>
+					<li>Inexactitudes: Devulve el resultado redondeado</li>
+				</ul>
+			<div class="square"></div>
+		</article>
+		<footer>
+			<img id="ur" src="../imagenes/ur.png" alt="Aquí debería ir una imagen LOL">
+			<img id="css" src="../imagenes/vcss.gif" alt="Aquí debería ir el validador">
+			<img id="html" src="../imagenes/html.png" alt="Aquí debería ir el validador">
+			<p id="desc">Sistemas Informáticos, Universidad de La Rioja</p>
+			<address> Guillermo Roche: 
+			  <a href="mailto:groche97@gmail.com">Contacto</a></address>
+			<address> Pablo Mendoza: 
+			  <a href="mailto:pablo_mendoza@protonmail.ch">Contacto</a></address>
+			<address> Raul Prieto: 
+			  <a href="mailto:Montaracesp@gmail.com">Contacto</a></address>
+		</footer>
+	</body>
+</html>

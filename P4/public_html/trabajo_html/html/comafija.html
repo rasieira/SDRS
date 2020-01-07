@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="HTML,CSS,trabajo,Universidad de la rioja,sistemas informaticos,codificación,coma flotante,coma fija,codigos historicos,precisión arbitraria">
+		<meta name="description" content="Trabajo HTML de Sistemas Informáticos de Guillermo Roche, Pablo Mendoza y Raúl Prieto">
+		<meta name="Author" content="Guillermo Roche, Pablo Mendoza y Raúl Prieto">
+		<link rel="stylesheet" href="../css/general.css">
+		<link rel="stylesheet" href="../css/imagenes.css">
+		<link rel="stylesheet" href="../css/tablas.css">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<title>Coma fija</title>
+	</head>
+	<body>
+		<header>
+		Representación de tipos numéricos
+		</header>
+		<nav>
+            <ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="codigos.html">Códigos y bases</a></li>
+                <li><a href="naturales.html">Naturales</a></li>
+                <li><a href="enteros.html">Enteros</a></li>
+                <li><a href="comaflotante.html">Coma flotante</a></li>
+                <li><a href="comafija.html">Coma fija</a></li>
+                <li><a href="arbitraria.html">Precisión Arbitraria</a></li>
+				<li><a href="historicos.html">Códigos históricos</a></li>
+                <li><a href="bibliografia.html">Bibliografía</a></li>
+            </ul>
+        </nav>
+		<article>
+			<h1>Representación de número con coma fija</h1>
+			<div class="square"></div>
+			<p>La representación de coma fija es una forma de notación científica que consiste en destinar una cantidad fija de dígitos para la parte entera y otra para la parte fraccionaria. La cantidad de dígitos destinados a la parte fraccionaria indica en definitiva la posición de la coma dentro del número. Esta posición, que es siempre fija, la podemos indicar con un factor de escala implícito que ubica la coma en el lugar requerido. Es decir, podemos representar un número fraccionario como un número entero multiplicado por un factor de escala. En general, el factor de escala puede ser arbitrario e indica cuál es la longitud del intervalo que separa dos representaciones consecutivas, por ejemplo: dn-1dn-2…d0,d-1d-2…d-m=dn+m-1…d0 · b-m.</p>
+			<h2>Operaciones aritméticas</h2>
+			<p>
+				Esta longitud es siempre fija para cualquier par de representaciones consecutivas en todo el rango de representación. En este sistema, el programador debe modificar el factor de escala cuando alguna operación produce un resultado fuera del rango de representación.
+				Por ejemplo: si la suma de dos números en punto fijo produce acarreo, se debe modificar el factor de escala si no se quiere perder significación en el resultado. Esto implica modificar el factor de escala de todos los números en punto fijo que utiliza el programa con la consecuente pérdida de precisión. Estos sistemas de representación ofrecen un rango y una precisión limitados.
+				Este sistema presenta cierta dificultad al operar con sumas y restas. El computador debe analizar el signo de los operadores para decidir la operación que tiene que hacer. Así, si la operación es una suma, pero uno de los operadores es negativo, se ha de cambiar por una resta. Por el contrario, las operaciones de multiplicar y dividir se tratan sin dificultad, operándose, por un lado, con las magnitudes, y por otro, con los signos.
+			</p>
+			<h2>Rango de representación</h2>
+			<p>Con este sistema se representan los enteros desde el -(2^(n-1)-1) hasta el (2^(n-1)-1), siendo n el número de bits. Por tanto el rango de representación es [-2^(n-1)+1,2^(n-1)-1] y la resolución es de “1?. El “cero” presenta las dos representaciones 000…00 y 100…00, lo que a veces genera dificultades.</p>
+			<div class="square"></div>
+		</article>
+		<footer>
+			<img id="ur" src="../imagenes/ur.png" alt="Aquí debería ir una imagen LOL">
+			<img id="css" src="../imagenes/vcss.gif" alt="Aquí debería ir el validador">
+			<img id="html" src="../imagenes/html.png" alt="Aquí debería ir el validador">
+			<p id="desc">Sistemas Informáticos, Universidad de La Rioja</p>
+			<address> Guillermo Roche: 
+			  <a href="mailto:groche97@gmail.com">Contacto</a></address>
+			<address> Pablo Mendoza: 
+			  <a href="mailto:pablo_mendoza@protonmail.ch">Contacto</a></address>
+			<address> Raul Prieto: 
+			  <a href="mailto:Montaracesp@gmail.com">Contacto</a></address>
+		</footer>
+	</body>
+</html>

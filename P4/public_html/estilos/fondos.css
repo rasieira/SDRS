@@ -1,0 +1,24 @@
+body{
+	background-image: url(../images/hubbledeepfield.jpg);
+	background-position: center;
+}
+
+section#contenido{
+	background-image: url(../images/blackhole.png);
+	background-position: top;
+}
+
+nav{
+	background-image: url(../images/nav.jpg);
+	background-position: top;
+}
+
+footer{
+	background-image: url(../images/footer.jpg);
+	background-position: center;
+}
+
+header{
+	background-image: url(../images/header.jpg);
+	background-position: top;
+}

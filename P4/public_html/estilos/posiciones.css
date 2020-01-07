@@ -1,0 +1,81 @@
+body
+{
+	background-color: white;
+}
+
+header
+{
+	text-align: center;
+}
+
+section#contenido
+{
+	text-align: justify;
+}
+
+header, nav, section#contenido, footer
+{
+border: solid;
+background-color: black;
+color: white;
+}
+
+a
+{
+	color: white;
+}
+
+header
+{
+position: absolute;
+top: 2%;
+left: 2%;
+height: 10%;
+width: 93%;
+}
+
+nav
+{
+position: absolute;
+top: 13%;
+left: 2%;
+width: 25%;
+height: 75%;
+}
+
+section#contenido
+{
+position: absolute;
+top: 13%;
+left: 30%;
+width: 65%;
+height: 75%;
+}
+
+footer
+{
+position: absolute;
+top: 89%;
+left: 30%;
+height: 10%;
+width: 65%;
+}
+
+div#imagen{
+float: right; /*Posicionamos la imagen a la derecha con el
+texto “flotando” a la izquierda*/
+height: 20%; /*Definimos el tamaño como un 11% de
+la anchura de la caja “contenido”*/
+border: solid;
+border-color: black;
+}
+
+img#Logo{
+height: 100%; /*Escalamos la imagen para que su anchura sea el
+100% del de la caja “imagen”*/
+}
+
+div#texto
+{
+	padding: 10px;
+}

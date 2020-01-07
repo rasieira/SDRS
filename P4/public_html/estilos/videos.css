@@ -1,0 +1,41 @@
+body
+{
+	font: Calibri;
+	text-align: center;
+}
+
+h1
+{
+	font-size: larger;
+}
+
+nav
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav a
+{
+    display: block;
+    color: white;
+	 font: Calibri;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    background-color: #111;
+}
+
+video
+{
+	width: 30%;
+	max-width: 450px;
+	min-width: 200px;
+}

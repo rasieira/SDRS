@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="HTML,CSS,trabajo,Universidad de la rioja,sistemas informaticos,codificación,coma flotante,coma fija,codigos historicos,precisión arbitraria">
+		<meta name="description" content="Trabajo HTML de Sistemas Informáticos de Guillermo Roche, Pablo Mendoza y Raúl Prieto">
+		<meta name="Author" content="Guillermo Roche, Pablo Mendoza y Raúl Prieto">
+		<link rel="stylesheet" href="../css/general.css">
+		<link rel="stylesheet" href="../css/imagenes.css">
+		<link rel="stylesheet" href="../css/tablas.css">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<title>Códigos y bases</title>
+	</head>
+	<body>
+		<header>
+		Representación de tipos numéricos
+		</header>
+		<nav>
+            <ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="codigos.html">Códigos y bases</a></li>
+                <li><a href="naturales.html">Naturales</a></li>
+                <li><a href="enteros.html">Enteros</a></li>
+                <li><a href="comaflotante.html">Coma flotante</a></li>
+                <li><a href="comafija.html">Coma fija</a></li>
+                <li><a href="arbitraria.html">Precisión Arbitraria</a></li>
+				<li><a href="historicos.html">Códigos históricos</a></li>
+                <li><a href="bibliografia.html">Bibliografía</a></li>
+            </ul>
+        </nav>
+		<article>
+			<h1>Bases numéricas y códigos</h1>
+			<div class="square"></div>
+			<h2>Teorema fundamental de la numeración</h2>
+			<p>
+				Para comprender la idea de base numñerica y códigos, recurrimos al teorema fundamental de la numeración, para expresar un valor en distintas bases:<br>
+				Dado un número x, su representación en una dada base b consiste en escribirlo como<br>
+			</p>
+			<img id="sumatorio" src="../imagenes/sumatorio.png" alt="Aquí deberia ir una imagen LOL">
+			<p>
+				donde el signo s es igual a 0 o 1 y los coeficientes aj son enteros positivos menores que b. 
+				En la vida real la suma tiene sólo un número finito de términos por lo que algunos números son sólo representados de forma aproximada. 
+				Usualmente, utilizamos el sistema decimal de numeración (b = 10) pero la representación numérica en sistemas digitales se realiza en general en base 2, denominado sistema de numeración binaria, 
+				y ocasionalmente en base 16 (sistema hexadecimal).
+			</p>
+			<h2>Sistema binario (Base 2)</h2>
+			<p>Los ordenadores, por su arquitectura y tecnología internas, trabaja con componentes electrónicos que toman dos estados (Abierto-cerrado, orientación magnética N-S, perforado-no perforado...), por lo que
+				trabaja en base dos (0 , 1). Este sistema solo cuenta con dos caracteres, el 0 y el 1. Esta es la forma interna en la que los ordenadores trabajan, aqunque existan otras bases con las que 
+				se trabajen a más altos niveles.
+			</p>
+			<img id="binario" src="../imagenes/binario.png" alt="Aquí deberia ir una imagen LOL">
+			<h2>Sistema hexadecimal (Base 16)</h2>
+			<p>
+				Aunque los circuitos electrónicos digitales y las computadoras utilizan el sistema binario, el trabajar con este sistema de numeración resulta laborioso, lo que facilita las equivocaciones cuando se trabaja con números binarios demasiado largos..
+				El sistema Hexadecimal está en base 16, sus números están representados por los 10 primeros dígitos de la numeración decimal, y el intervalo que va del número 10 al 15 están representados por las letras del alfabeto de la A a la F.
+				Actualmente el sistema hexadecimal es uno de los más utilizados en el procesamiento de datos, debido principalmente a 2 ventajas:
+			</p>
+			<ul>
+				<li>La primera ventaja es la simplificación en la escritura de los números decimales, cada 4 cifras binarias se representan por una hexadecimal.</li>
+				<li>La segunda es que cada cifra hexadecimal se pueden expresar mediante 4 cifras binarias, con lo que se facilita la trasposición entre estos 2 sistemas. Para convertir un número binario en hexadecimal se realiza el mismo proceso, pero a la inversa.</li>
+			</ul>
+			<img id="hex" src="../imagenes/sistema-hexadecimal.jpg" alt="Aquí deberia ir una imagen LOL">
+			<h2>Sistema octal (Base 8)</h2>
+			<p>
+				El sistema numérico en base 8 se llama octal y utiliza los dígitos del 0 al 7.
+				En informática a veces se utiliza la numeración octal en vez de la hexadecimal. 
+				Tiene la ventaja de que no requiere utilizar otros símbolos diferentes de los dígitos. 
+				Sin embargo, para trabajar con bytes o conjuntos de ellos, asumiendo que un byte es una palabra de 8 bits, 
+				suele ser más cómodo el sistema hexadecimal, por cuanto todo byte así definido es completamente representable por dos dígitos hexadecimales.
+			</p>
+			<img id="octal" src="../imagenes/octal.jpg" alt="Aquí deberia ir una imagen LOL">
+			<div class="square"></div>
+		</article>
+		<footer>
+			<img id="ur" src="../imagenes/ur.png" alt="Aquí debería ir una imagen LOL">
+			<img id="css" src="../imagenes/vcss.gif" alt="Aquí debería ir el validador">
+			<img id="html" src="../imagenes/html.png" alt="Aquí debería ir el validador">
+			<p id="desc">Sistemas Informáticos, Universidad de La Rioja</p>
+			<address> Guillermo Roche: 
+			  <a href="mailto:groche97@gmail.com">Contacto</a></address>
+			<address> Pablo Mendoza: 
+			  <a href="mailto:pablo_mendoza@protonmail.ch">Contacto</a></address>
+			<address> Raul Prieto: 
+			  <a href="mailto:Montaracesp@gmail.com">Contacto</a></address>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+nav a:link
+{
+	text-decoration: none;
+}
+
+nav a:visited
+{
+	text-decoration: none;
+	color: lime;
+}
+
+nav li a:hover
+{
+	text-transform: uppercase;
+	background-color: white;
+	color: gray;
+}
+
+footer a:active
+{
+	background-color: white;
+	border-style: solid;
+	border-color: purple;
+	font-style: normal;
+	color: purple;
+}

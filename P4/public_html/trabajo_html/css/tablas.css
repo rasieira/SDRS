@@ -1,0 +1,12 @@
+table,td,th
+{
+margin:auto;
+border:solid;
+border-width:thin;
+border-color:black;
+border-collapse:collapse;
+}
+
+th{padding:5px }
+td{text-align:right;}
+.nombre{text-align:left;}
